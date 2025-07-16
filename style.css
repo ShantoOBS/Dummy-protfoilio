@@ -24,8 +24,15 @@
      color: white;
      padding: 18px 35px;
      border-radius: 5px;
+     border: none;
 
       
+}
+/* header style */
+.header{
+      background-image: url(images/developer.png) , url(images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: top left , bottom right;
 }
 /* nav bar */
 
@@ -53,5 +60,33 @@ nav ul li{
 
 nav li a{
      text-decoration: none;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.bnner-content{
+     width: 585px;
+     height: 356px;
+}
+.banner-greeting{
+     font-size: 45px;
+     font-weight: 600;
+}
+.banner-titel{
+        font-size: 85px;
+     font-weight: bold;
+}
+.banner p{
+    font-size: 18px;
+}
+.banner img{
+    width: 584px;
+    height: 676px;
 }
 
